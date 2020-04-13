@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("Nhập vào một số nguyên: ", ''));
+    if (number > 0) {
+        document.write(number + " "+ ">0 ");
+    } else if (number == 0 ) {
+        document.write(number + " "+ "= 0");
+    } if (number < 0 ) {
+        document.write(number + " "+ " <0");
+    }
+</script>
+</body>
+</html>

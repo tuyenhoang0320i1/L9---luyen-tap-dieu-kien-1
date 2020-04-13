@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4: Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập vào số a: "), '');
+    let b = parseInt(prompt("Nhập vào số b: "), '');
+    let c = parseInt(prompt("Nhập vào số c: "), '');
+    if (a > b && a > c) {
+        document.write(a + " la so lon nhat");
+    } else if (a > b && a < c) {
+        document.write(c + " la so lon nhat");
+    } else if (a < b && c < b) {
+        document.write(b + " la so lon nhat");
+    } else {
+        document.write(c + " la so lon nhat");
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5: Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</title>
+</head>
+<body>
+
+<script>
+    // <span>finalScore = testScore + ((examMiddleScore + examFinalScore)*2)/5
+    // <span>Tổng điểm = Điểm kiểm tra + ((Điểm thi giữa kì + Điểm thi cuối kì)*2)/5
+let type;
+let testScore = parseFloat(prompt("Nhập vào điểm kiểm tra: ", ''));
+let examMiddleScore = parseFloat(prompt("Nhập vào điểm thi giữa kì: ", ''));
+let examFinalScore = parseFloat(prompt("Nhập vào điểm thi cuối kì: ", ''));
+finalScore = (testScore + ((examMiddleScore + examFinalScore)*2))/5;
+    if (finalScore < 5.0) {
+        type =   "Yếu ";
+    } else if (finalScore < 7.0) {
+        type =  "Trung bình ";
+    } else if (finalScore < 8.0) {
+        type =  "Khá ";
+    } else if (finalScore <= 10.0) {
+        type =  "Giỏi ";
+    } else {}
+    alert(finalScore + " Lọai " + type);
+</script>
+</body>
+</html>
