@@ -1,4 +1,5 @@
 Mô tả
+
 Bài 1: Nhập vào hai số a và b, và kiểm tra xem a có chia hết cho b hay không
 
 Bài 2: Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.
