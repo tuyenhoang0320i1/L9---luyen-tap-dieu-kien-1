@@ -7,7 +7,22 @@
 Bài 6: Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng
 <body>
 <script>
-
+    let bonus;
+    let sales = +prompt(" Enter your sales: ");
+    if (sales <= 15000000) {
+        bonus = sales * 0.02;
+    } else if (sales <= 30000000) {
+        bonus = sales * 0.05;
+    } else if (sales <= 50000000) {
+        bonus = sales * 0.06;
+    } else if (sales <= 75000000) {
+        bonus = sales * 0.07;
+    } else if (sales <= 100000000) {
+        bonus = sales * 0.08;
+    } else if (100000000 <= sales) {
+        bonus = sales * 0.09;
+    } else {}
+    alert(" Thưởng doanh số của bạn là: " + bonus + " VNĐ");
 </script>
 </body>
 </html>
